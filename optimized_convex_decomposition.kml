@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="8">
+            <LineStyle id="10">
+                <color>ffff0000</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="9">
+                <color>64ff0000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="17">
+            <LineStyle id="19">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="18">
+                <color>780000ff</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="26">
+            <LineStyle id="28">
+                <color>ff008000</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="27">
+                <color>78008000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="35">
+            <LineStyle id="37">
+                <color>ff00ffff</color>
+                <colorMode>normal</colorMode>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle id="36">
+                <color>7800ffff</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Placemark id="3">
+            <name>Original Polygon</name>
+            <styleUrl>#8</styleUrl>
+            <Polygon id="2">
+                <outerBoundaryIs>
+                    <LinearRing id="6">
+                        <coordinates>77.52823095377568,23.25099255083915,0.0 77.52798039483427,23.25247942858248,0.0 77.52988659271314,23.25315880713438,0.0 77.52865978375385,23.25495014817222,0.0 77.52475218673723,23.25440189656891,0.0 77.5256293914698,23.25338232982807,0.0 77.52414428617689,23.25315035255495,0.0 77.52577907271822,23.25128320254426,0.0 77.52655551106828,23.25277599275725,0.0 77.52689717667467,23.25091956276013,0.0 77.52823095377568,23.25099255083915,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="12">
+            <name>Convex Region 1</name>
+            <styleUrl>#17</styleUrl>
+            <Polygon id="11">
+                <outerBoundaryIs>
+                    <LinearRing id="15">
+                        <coordinates>77.52576175109309,23.253220821861838,0.0 77.5264551158781,23.252973054944803,0.0 77.52574095086656,23.25159999224178,0.0 77.52449506670686,23.253022962497102,0.0 77.52576175109309,23.253220821861838,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="21">
+            <name>Convex Region 2</name>
+            <styleUrl>#26</styleUrl>
+            <Polygon id="20">
+                <outerBoundaryIs>
+                    <LinearRing id="24">
+                        <coordinates>77.52801998340406,23.251161275431866,0.0 77.52704552827265,23.251107950473685,0.0 77.52670927871391,23.2529349525356,0.0 77.52779201812237,23.25251407689932,0.0 77.52801998340406,23.251161275431866,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="30">
+            <name>Convex Region 3</name>
+            <styleUrl>#35</styleUrl>
+            <Polygon id="29">
+                <outerBoundaryIs>
+                    <LinearRing id="33">
+                        <coordinates>77.52670927871391,23.2529349525356,0.0 77.5264551158781,23.252973054944803,0.0 77.52576175109309,23.253220821861838,0.0 77.52583487418462,23.253419488231433,0.0 77.52510360248164,23.254269438396094,0.0 77.52857431170332,23.254756392881756,0.0 77.5296060366655,23.253249906276388,0.0 77.52785829561775,23.25262700253943,0.0 77.52779201812237,23.25251407689932,0.0 77.52670927871391,23.2529349525356,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>
