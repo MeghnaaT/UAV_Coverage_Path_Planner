@@ -1,4 +1,4 @@
-# 🚁 UAV Autonomous Coverage Path Planner
+# 🚁 Autonomous UAV Coverage Path Planner → Autonomous UAV survey coverage system using A*, TSP & Boustrophedon decomposition
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
